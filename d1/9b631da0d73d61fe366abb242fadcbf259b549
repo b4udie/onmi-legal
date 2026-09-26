@@ -1,0 +1,19 @@
+privacy-policy.html
+  s_01ab3c1b763819::t_b726e611023d7b 176-177,181-183,237-240,251
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "d19b631da0d73d61fe366abb242fadcbf259b549",
+  "prompts": {},
+  "sessions": {
+    "s_01ab3c1b763819": {
+      "agent_id": {
+        "tool": "claude",
+        "id": "388bc12b-35dc-4812-ad06-903f4e31fdce",
+        "model": "claude-opus-5-5"
+      },
+      "human_author": "Valentyn Bratkevych <bratkevychv@proton.me>"
+    }
+  }
+}
