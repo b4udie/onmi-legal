@@ -173,21 +173,15 @@
           </tr>
           <tr>
             <td>Oracle Cloud Infrastructure</td>
-            <td>Hosting our API servers (Frankfurt, Germany)</td>
-            <td>All data the app sends to our servers, while it is processed</td>
+            <td>Hosting our API servers and database (Frankfurt, Germany)</td>
+            <td>All data the app sends to our servers; the database of account, wardrobe, look, usage, credit, purchase and push token records</td>
             <td><a href="https://www.oracle.com/legal/privacy/" rel="noopener">oracle.com/legal/privacy</a></td>
           </tr>
           <tr>
-            <td>Cloudflare (R2)</td>
-            <td>Private storage of photos and generated images</td>
-            <td>Your photos, product images of your items, try-on results</td>
+            <td>Cloudflare</td>
+            <td>Private storage of photos and generated images (R2); secure network connection between the app and our servers</td>
+            <td>Your photos, product images of your items, try-on results; requests from the app while in transit</td>
             <td><a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">cloudflare.com/privacypolicy</a></td>
-          </tr>
-          <tr>
-            <td>Neon</td>
-            <td>Database</td>
-            <td>Account identifier, wardrobe and look details, usage and credit records, push token, purchase status</td>
-            <td><a href="https://neon.com/privacy-policy" rel="noopener">neon.com/privacy-policy</a></td>
           </tr>
           <tr>
             <td>RunPod</td>
@@ -240,10 +234,10 @@
 
     <h2>12. International transfers</h2>
     <p>
-      Our API servers run in Frankfurt, Germany, and photos are stored with Cloudflare in Europe. Some
-      providers process data elsewhere: our database is hosted by Neon in the United States, RunPod GPU
-      servers may be located in the United States or other countries, and Replicate, Google, RevenueCat
-      and Apple operate from the United States. Where data leaves the European Economic Area, the transfer
+      Our API servers and database run in Frankfurt, Germany, and photos are stored with Cloudflare in
+      Europe. Some providers process data elsewhere: RunPod GPU servers may be located in the United
+      States or other countries, and Replicate, Google, RevenueCat and Apple operate from the United
+      States. Where data leaves the European Economic Area, the transfer
       relies on the European Commission&rsquo;s Standard Contractual Clauses or another lawful transfer
       mechanism offered by the provider. Ask us at
       <a href="mailto:bratkevychv@proton.me">bratkevychv@proton.me</a> if you want the specifics for a
@@ -254,7 +248,7 @@
     <ul>
       <li><strong>Photos, try-on photo, wardrobe items, looks and try-on results</strong> are kept until you delete them in the app or delete your account. There is no automatic deletion after a period of time.</li>
       <li>When you delete a single item, photo, look or result, its image files are erased from storage straight away. A minimal database record that it existed (without the image) may remain until you delete your account.</li>
-      <li><strong>When you delete your account</strong>, we delete your account record and everything linked to it from the database, erase all of your files from storage, revoke the app&rsquo;s Sign in with Apple authorisation and ask RevenueCat to delete your customer record. Database backups roll over within a short period, after which deleted data is gone from them too.</li>
+      <li><strong>When you delete your account</strong>, we delete your account record and everything linked to it from the database, erase all of your files from storage, revoke the app&rsquo;s Sign in with Apple authorisation and ask RevenueCat to delete your customer record. If deleted data is contained in a backup, it disappears when that backup is overwritten.</li>
       <li><strong>Purchase event records</strong> that we receive about App Store transactions are kept after account deletion, detached from your account, for accounting, refunds and fraud prevention.</li>
       <li><strong>Server logs</strong> with technical request data are kept only for a limited time for security and troubleshooting.</li>
       <li><strong>Support emails</strong> are kept as long as needed to handle your request.</li>
