@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Onmi — Privacy Policy</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <p class="eyebrow"><a href="index.html">Onmi Legal</a></p>
+    <h1>Privacy Policy</h1>
+    <p class="meta">Effective date: 26 September 2026 · Last updated: 26 September 2026</p>
+  </header>
+
+  <main>
+    <h2>1. Who we are</h2>
+    <p>
+      Onmi (bundle identifier <code>com.onmi.b4udie</code>) is an iOS application for keeping a digital
+      wardrobe, putting outfits together and trying them on virtually with the help of AI. It is
+      published by Valentyn Bratkevych, an individual developer (&ldquo;we&rdquo;, &ldquo;us&rdquo;).
+      This policy explains what personal data the app handles, why, and what you can do about it. It
+      applies to the app only, not to any other product or website.
+    </p>
+    <p>
+      For data protection purposes, Valentyn Bratkevych is the controller of the personal data described
+      below. You can reach us at
+      <a href="mailto:bratkevychv@proton.me">bratkevychv@proton.me</a>.
+    </p>
+
+    <h2>2. The short version</h2>
+    <div class="callout">
+      <ul>
+        <li>You sign in with Apple. We do not ask Apple for your name or email address.</li>
+        <li>The photos you add — clothes, outfits and a photo of yourself — are sent to our servers so AI models can turn them into wardrobe items and try-on images.</li>
+        <li>Your photos and results are kept until you delete them or delete your account. There is no automatic deletion by time.</li>
+        <li>You can delete your account inside the app, and doing so deletes your photos, wardrobe, looks and try-on results.</li>
+        <li>We do not use analytics or advertising SDKs, we do not track you across other apps or websites, and we do not sell your data.</li>
+        <li>You can ask us what we hold about you and ask us to delete it.</li>
+      </ul>
+    </div>
+
+    <h2>3. Information we collect</h2>
+
+    <h3>3.1 Information you provide</h3>
+    <ul>
+      <li><strong>Account details</strong> — when you sign in with Apple, Apple gives us a stable user identifier for Onmi. The app does not request your name or your email address, so we do not receive them.</li>
+      <li><strong>Photos of clothes and outfits</strong> — photos you take with the camera or pick from your library to add items to your wardrobe, including outfit photos that may show you or another person wearing the clothes.</li>
+      <li><strong>Your try-on photo</strong> — a full-length photo of yourself that the app uses to show outfits on you. It shows your face and body.</li>
+      <li><strong>Wardrobe and looks</strong> — the items in your wardrobe and what we or you record about them (category, name, colour and similar attributes), the looks you put together, and the try-on images generated for them.</li>
+      <li><strong>Feedback on results</strong> — if you rate a try-on result (for example thumbs down with a reason), we store that rating with the result.</li>
+      <li><strong>Support messages</strong> — if you email us, we receive your address and whatever you write.</li>
+    </ul>
+
+    <h3>3.2 Information collected automatically</h3>
+    <ul>
+      <li><strong>Technical request data</strong> — when the app talks to our servers we process the request itself, the app version, and the technical information every internet request carries, such as the IP address and the operating system version. We use it to deliver the service, keep it compatible with your app version and prevent abuse, not to build a profile of you.</li>
+      <li><strong>Usage records needed for your plan</strong> — how many outfit photos you processed this month, whether you used the free try-on, your credit balance and the history of credits added and spent.</li>
+      <li><strong>Push notification token</strong> — if you allow notifications, the token Apple issues for your device (see section 9).</li>
+      <li><strong>Purchase status</strong> — whether a subscription or credit pack purchase is active or completed, and the transaction identifiers Apple and RevenueCat give us. We never receive your card number or billing details.</li>
+    </ul>
+
+    <h3>3.3 Information from third parties</h3>
+    <p>
+      Apple tells us the identifier described above when you sign in, and Apple (through RevenueCat, our
+      purchase service provider) tells us whether a purchase succeeded and whether a subscription is
+      active or was refunded. Aside from that, we do not buy or receive personal data about you from
+      anyone.
+    </p>
+
+    <h2>4. How your photos are processed</h2>
+    <p>
+      Photos are the heart of the app, so here is exactly what happens to them.
+    </p>
+    <ul>
+      <li><strong>On your device first.</strong> When you add a single item, the app cuts the garment out of the photo on your iPhone using Apple&rsquo;s on-device Vision framework. When you add a try-on photo of yourself, the app checks on your iPhone, again with Apple Vision, that the photo shows exactly one person, full length, with a visible face. These checks run entirely on your device; only the photo you then choose to save is uploaded.</li>
+      <li><strong>On our servers.</strong> Uploaded photos are stored privately and processed by AI models to recognise and describe clothing, separate individual items, produce clean product-style images of them, and generate try-on images of your outfits on your photo. The models are open-source models that we run on GPU servers rented from RunPod. They are not provided by an AI company that receives your data for its own purposes.</li>
+      <li><strong>Very small accessories.</strong> When an item is tiny in the photo (for example a watch or a pendant), we send a cropped section of the photo around that item to Replicate, which runs Google&rsquo;s image model &ldquo;Nano Banana&rdquo; to produce the product image. That crop can include a small part of the body wearing the item, such as a wrist or neck. No other photos are sent to Replicate or Google.</li>
+      <li><strong>Your face.</strong> To keep your face looking like you in try-on results, our server locates the face on your try-on photo and on the generated image and carries the original face region over. This locates a face in an image; it does not identify who you are, and we do not create or keep face recognition templates or any biometric identifiers.</li>
+      <li><strong>No automated moderation and no human review by default.</strong> We do not run automated content moderation on your photos, and we do not look at them, except when needed to investigate a problem you report to us, to act on a report of unlawful content, or to comply with the law.</li>
+      <li><strong>No model training.</strong> We do not use your photos or results to train AI models, and we have no agreement allowing our service providers to train on them.</li>
+    </ul>
+    <p>
+      Please upload photos of other people only if they have agreed to it (see the
+      <a href="terms-of-service.html">Terms of Use</a>).
+    </p>
+
+    <h2>5. Device permissions</h2>
+    <p>
+      The app asks for a permission only when a feature needs it, and iOS shows you the reason at that
+      moment. You can withdraw any permission in <em>Settings &rsaquo; Onmi</em>; the feature that relied
+      on it stops working, the rest of the app keeps working. Picking photos from your library uses the
+      system photo picker, which gives the app only the photos you select, without access to the rest of
+      your library.
+    </p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Permission</th><th>Why the app asks</th></tr></thead>
+        <tbody>
+          <tr><td>Camera</td><td>To photograph your clothes and outfits inside the app.</td></tr>
+          <tr><td>Photos (add only)</td><td>To save try-on results to your photo library when you tap Save. The app cannot read your library through this permission.</td></tr>
+          <tr><td>Notifications</td><td>To tell you when a try-on you started is ready, if you choose to leave the generation screen.</td></tr>
+          <tr><td>Local network</td><td>Used only by development builds to reach a test server. Release builds do not use your local network.</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>6. Why we use data, and on what legal basis</h2>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Purpose</th><th>Data used</th><th>Legal basis (GDPR)</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>Provide the app&rsquo;s core features: your account, wardrobe, looks and try-on</td>
+            <td>Account identifier, photos, wardrobe and look details, try-on results</td>
+            <td>Performance of a contract (Art. 6(1)(b))</td>
+          </tr>
+          <tr>
+            <td>Apply plan limits, free try-on and credits</td>
+            <td>Usage records, credit history, purchase status</td>
+            <td>Performance of a contract (Art. 6(1)(b))</td>
+          </tr>
+          <tr>
+            <td>Unlock and restore paid features</td>
+            <td>Purchase status, transaction identifiers</td>
+            <td>Performance of a contract (Art. 6(1)(b))</td>
+          </tr>
+          <tr>
+            <td>Improve the quality of try-on results</td>
+            <td>Your ratings and reasons for a result</td>
+            <td>Legitimate interest in improving the app (Art. 6(1)(f))</td>
+          </tr>
+          <tr>
+            <td>Send notifications you asked for</td>
+            <td>Push token</td>
+            <td>Consent (Art. 6(1)(a))</td>
+          </tr>
+          <tr>
+            <td>Keep the service secure and working; prevent abuse</td>
+            <td>Technical request data</td>
+            <td>Legitimate interest (Art. 6(1)(f))</td>
+          </tr>
+          <tr>
+            <td>Answer support requests and meet legal obligations</td>
+            <td>Support messages, minimal records</td>
+            <td>Legitimate interest / legal obligation (Art. 6(1)(f), (c))</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p>We do not use your data to make automated decisions with legal effects, and we do not profile you.</p>
+
+    <h2>7. Service providers we use</h2>
+    <p>
+      These are the only third parties that process personal data from the app. Each one processes the
+      data only to provide its service to us.
+    </p>
+    <div class="table-wrap">
+      <table>
+        <thead><tr><th>Service</th><th>Purpose</th><th>Data involved</th><th>Their policy</th></tr></thead>
+        <tbody>
+          <tr>
+            <td>Apple</td>
+            <td>Sign in with Apple, push notifications, App Store payments</td>
+            <td>Apple user identifier, push token, purchase transactions</td>
+            <td><a href="https://www.apple.com/legal/privacy/" rel="noopener">apple.com/legal/privacy</a></td>
+          </tr>
+          <tr>
+            <td>RevenueCat</td>
+            <td>Managing subscriptions and credit pack purchases</td>
+            <td>Your Onmi account identifier, purchase and subscription history, basic device information (such as OS and app version, country of the App Store)</td>
+            <td><a href="https://www.revenuecat.com/privacy" rel="noopener">revenuecat.com/privacy</a></td>
+          </tr>
+          <tr>
+            <td>Oracle Cloud Infrastructure</td>
+            <td>Hosting our API servers (Frankfurt, Germany)</td>
+            <td>All data the app sends to our servers, while it is processed</td>
+            <td><a href="https://www.oracle.com/legal/privacy/" rel="noopener">oracle.com/legal/privacy</a></td>
+          </tr>
+          <tr>
+            <td>Cloudflare (R2)</td>
+            <td>Private storage of photos and generated images</td>
+            <td>Your photos, product images of your items, try-on results</td>
+            <td><a href="https://www.cloudflare.com/privacypolicy/" rel="noopener">cloudflare.com/privacypolicy</a></td>
+          </tr>
+          <tr>
+            <td>Neon</td>
+            <td>Database</td>
+            <td>Account identifier, wardrobe and look details, usage and credit records, push token, purchase status</td>
+            <td><a href="https://neon.com/privacy-policy" rel="noopener">neon.com/privacy-policy</a></td>
+          </tr>
+          <tr>
+            <td>RunPod</td>
+            <td>GPU servers that run our AI models</td>
+            <td>Photos and item images while they are being processed, and the generated images</td>
+            <td><a href="https://www.runpod.io/legal/privacy-policy" rel="noopener">runpod.io/legal/privacy-policy</a></td>
+          </tr>
+          <tr>
+            <td>Replicate, running a Google model</td>
+            <td>Product images of very small accessories (section 4)</td>
+            <td>A cropped section of an outfit photo around the accessory</td>
+            <td><a href="https://replicate.com/privacy" rel="noopener">replicate.com/privacy</a>, <a href="https://policies.google.com/privacy" rel="noopener">policies.google.com/privacy</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>8. Purchases and subscriptions</h2>
+    <p>
+      Purchases are processed by Apple through the App Store, and we use RevenueCat to keep track of them.
+      Apple handles payment and receives your payment details; we receive only the purchase status and
+      transaction identifiers, which is what lets the app unlock Pro, add credits and restore purchases
+      on a new device. Apple&rsquo;s handling of your payment data is governed by
+      <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple&rsquo;s Privacy Policy</a>.
+    </p>
+
+    <h2>9. Notifications</h2>
+    <p>
+      Push notifications are off until you allow them. If you allow them, Apple issues a device token that
+      we store with your account and use only to tell you that a try-on is ready. Turn them off at any
+      time in <em>Settings &rsaquo; Notifications &rsaquo; Onmi</em>.
+    </p>
+
+    <h2>10. Tracking, analytics and advertising</h2>
+    <p>
+      The app contains no advertising, analytics or crash reporting SDKs, does not read Apple&rsquo;s
+      advertising identifier (IDFA), does not track you across other companies&rsquo; apps or websites,
+      and does not build advertising profiles. Because of that, the app never shows the App Tracking
+      Transparency prompt.
+    </p>
+
+    <h2>11. Sharing and disclosure</h2>
+    <p>
+      We do not sell your personal data, and we do not share it for cross-context behavioural
+      advertising. Your photos and results are not visible to other users. We disclose data only to the
+      service providers listed above, when the law requires it (a valid legal request), to protect our
+      rights or someone&rsquo;s safety, or to a successor if the app changes hands — in which case this
+      policy continues to apply until you are told otherwise.
+    </p>
+
+    <h2>12. International transfers</h2>
+    <p>
+      Our API servers run in Frankfurt, Germany, and photos are stored with Cloudflare in Europe. Some
+      providers process data elsewhere: our database is hosted by Neon in the United States, RunPod GPU
+      servers may be located in the United States or other countries, and Replicate, Google, RevenueCat
+      and Apple operate from the United States. Where data leaves the European Economic Area, the transfer
+      relies on the European Commission&rsquo;s Standard Contractual Clauses or another lawful transfer
+      mechanism offered by the provider. Ask us at
+      <a href="mailto:bratkevychv@proton.me">bratkevychv@proton.me</a> if you want the specifics for a
+      given provider.
+    </p>
+
+    <h2>13. How long we keep data</h2>
+    <ul>
+      <li><strong>Photos, try-on photo, wardrobe items, looks and try-on results</strong> are kept until you delete them in the app or delete your account. There is no automatic deletion after a period of time.</li>
+      <li>When you delete a single item, photo, look or result, its image files are erased from storage straight away. A minimal database record that it existed (without the image) may remain until you delete your account.</li>
+      <li><strong>When you delete your account</strong>, we delete your account record and everything linked to it from the database, erase all of your files from storage, revoke the app&rsquo;s Sign in with Apple authorisation and ask RevenueCat to delete your customer record. Database backups roll over within a short period, after which deleted data is gone from them too.</li>
+      <li><strong>Purchase event records</strong> that we receive about App Store transactions are kept after account deletion, detached from your account, for accounting, refunds and fraud prevention.</li>
+      <li><strong>Server logs</strong> with technical request data are kept only for a limited time for security and troubleshooting.</li>
+      <li><strong>Support emails</strong> are kept as long as needed to handle your request.</li>
+    </ul>
+
+    <h2>14. Security</h2>
+    <p>
+      Traffic between the app and our servers is encrypted in transit (HTTPS/TLS). Photos are kept in
+      private storage and are reachable only through short-lived signed links (typically valid for 15 minutes). Access
+      to systems that hold personal data is limited to the developer. No system is perfectly secure, so we
+      keep the amount of data we hold as small as the app allows.
+    </p>
+
+    <h2>15. Your rights and choices</h2>
+    <ul>
+      <li><strong>Access</strong> — ask what personal data we hold about you.</li>
+      <li><strong>Correction</strong> — ask us to fix data that is wrong.</li>
+      <li><strong>Deletion</strong> — delete individual photos, items, looks and results in the app, delete your account, or ask us to delete your data.</li>
+      <li><strong>Objection and restriction</strong> — object to processing based on legitimate interests, or ask us to pause it.</li>
+      <li><strong>Portability</strong> — receive a copy of the data you gave us in a machine-readable format.</li>
+      <li><strong>Withdraw consent</strong> — where processing is based on consent (notifications), withdraw it at any time; this does not affect what happened before.</li>
+    </ul>
+    <p>
+      Write to <a href="mailto:bratkevychv@proton.me">bratkevychv@proton.me</a> and we will respond within
+      30 days. We may need to verify that the request comes from you.
+    </p>
+    <p>
+      <strong>Deleting your account.</strong> Open <em>Settings &rsaquo; Delete account</em> in the app
+      and confirm. This deletes the personal data associated with your account as described in section
+      13, except records we must keep by law. No email to us is required. Deleting your account does
+      not cancel an App Store subscription — cancel it in
+      <em>Settings &rsaquo; your Apple Account &rsaquo; Subscriptions</em>.
+    </p>
+    <p>
+      If you are in the EEA or the UK and you think we have handled your data wrongly, you may also
+      complain to your national data protection authority. If you are in Ukraine, you may complain to
+      the Ukrainian Parliament Commissioner for Human Rights.
+    </p>
+
+    <h2>16. Children</h2>
+    <p>
+      The app is not directed to children, and you must be at least 16 years old to use it. We do not
+      knowingly collect personal data from anyone under 16. If you believe a child has provided us with
+      personal data, email <a href="mailto:bratkevychv@proton.me">bratkevychv@proton.me</a> and we will
+      delete it.
+    </p>
+
+    <h2>17. Apple and the App Store</h2>
+    <p>
+      Downloads, purchases and app analytics that Apple collects as the store operator are governed by
+      <a href="https://www.apple.com/legal/privacy/" rel="noopener">Apple&rsquo;s Privacy Policy</a>,
+      not this one. The privacy labels shown on our App Store page describe the same data practices set
+      out here.
+    </p>
+
+    <h2>18. Changes to this policy</h2>
+    <p>
+      If we change how the app handles data, we update this page and the &ldquo;Last updated&rdquo; date
+      above; material changes are announced in the app before they take effect. The current version is
+      always the one published here.
+    </p>
+
+    <h2>19. Contact</h2>
+    <p>
+      Valentyn Bratkevych — <a href="mailto:bratkevychv@proton.me">bratkevychv@proton.me</a>. Write in
+      English or Ukrainian; we answer in the language you used.
+    </p>
+  </main>
+
+  <footer>
+    <p>
+      <a href="index.html">Legal</a> · <a href="terms-of-service.html">Terms of Use</a>
+    </p>
+    <p>
+      Last updated: 26 September 2026 · © Valentyn Bratkevych. This document describes the app&rsquo;s
+      actual data practices; it is not legal advice.
+    </p>
+  </footer>
+</body>
+</html>
